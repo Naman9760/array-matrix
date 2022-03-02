@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp37
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[,] element = new int[3, 3] { { 23, 45, 66 }, { 34, 56, 78 }, { 45, 89, 90 } };
+            Console.Write("  "+element[0, 0]);
+            Console.Write("  "+element[1, 0]);
+            Console.Write("  "+element[2, 0]);
+            Console.WriteLine();
+            
+            Console.Write("  "+element[0, 1]);
+            Console.Write("  "+element[1, 1]);
+            Console.Write("  "+element[2, 1]);
+            Console.WriteLine();
+            Console.Write("  "+element[0, 2]);
+            Console.Write("  "+element[1, 2]);
+            Console.Write("  "+element[2, 2]);
+            
+
+            Console.ReadLine();
+
+        }
+    }
